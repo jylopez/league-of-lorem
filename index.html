@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Template</title>
+		<meta name="author" content="Veigar" />
+		<meta name="description" content="When you need more one-shot" />
+		<meta name="keywords"  content="love, veigar" />
+		<meta name="Resource-type" content="Document" />
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100i,100,300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>     
+		<div id="root"></div>
+		<script src="scripts/react.js"></script>
+		<script src="scripts/react-dom.js"></script>
+		<script src="scripts/babel.min.js"></script>
+		<script src="scripts/lorem.js"></script>
+		<script src="scripts/Generator.js" type="text/babel"></script>
+		<script type="text/babel">
+			class RootPage extends React.Component {
+				render() {
+					return (
+						<div>Hello Veigar</div>
+						<Generator />
+					);
+				}
+			}
+			ReactDOM.render(
+					<RootPage />,
+					document.getElementById('root')
+			);
+		</script>
+	</body>
+</html>
