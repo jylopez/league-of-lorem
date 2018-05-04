@@ -1,5 +1,5 @@
-# template-single-page
-Serverless, single-page website with React
+# league-of-lorem
+OP lorem for the bronzies
 
 ## Dev environment
 1. ```http-server```
