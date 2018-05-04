@@ -19,9 +19,9 @@ class Generator extends React.Component {
 
   render(){
     return (
-      <div>
+      <div className="generator">
+        <a className="accept" onClick={this.generateLorem}>ACCEPT!</a>
         <p>{this.state.lorem}</p>
-        <a onClick={this.generateLorem}>ACCEPT!</a>
       </div>
     )
   }
