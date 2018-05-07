@@ -20,7 +20,7 @@ class Generator extends React.Component {
   render(){
     return (
       <div className="generator">
-        <a className="accept" onClick={this.generateLorem}>ACCEPT!</a>
+        <a className="accept" onClick={this.generateLorem}>REROLL!</a>
         <p>{this.state.lorem}</p>
       </div>
     )
