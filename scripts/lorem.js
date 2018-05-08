@@ -150,7 +150,8 @@ const LOREM = {
     'Without master or brother, Yasuo roamed the mountains distraught, drinking away the pain of war and loss, a sword without a sheath.There in the snow, he met Taliyah, a young Shuriman stone mage who had fled the Noxian military.In her, Yasuo saw an unlikely student, and in himself, an even more unlikely teacher.He trained her in the ways of elemental magic, wind shaping stone, embracing at last the teachings of Elder Souma.',
     'Their world changed with rumors of a risen Shuriman god - emperor.Yasuo and Taliyah parted ways, though he gifted her the treasured maple seed, its lesson now learned.As she returned to her native desert sands, Yasuo set out for his own village, determined to put right his mistakes and find his old master’s true killer.',
     'Within the stone walls of the council hall, Elder Souma’s death was revealed to have been an accident, one brought about by the Noxian exile known as Riven—and one for which she felt deep remorse.Even so, Yasuo still could not absolve himself of the choice he had made to abandon his master or, worse yet, how that choice had ultimately led to Yone’s death.',
-    'To this day, Yasuo continues to wander the land, his sense of guilt the only thing weighing down the free wind.'
+    'To this day, Yasuo continues to wander the land, his sense of guilt the only thing weighing down the free wind.',
+    'Stripped of the faith and conviction that had bolstered her entire life, Riven chose to exile herself, wandering Ionia’s battle-scarred landscape. When she finally returned to the village where she had broken the sword, it was revealed that her self-destructive needs had cost the life of their most revered elder… but where Noxus would certainly have condemned Riven to death for such a crime, Ionia embraced her with forgiveness.'
   ]
 }
 
