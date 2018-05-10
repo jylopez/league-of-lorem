@@ -52,11 +52,14 @@ class Generator extends React.Component {
     return (
       <div className="generator">
         <a className="accept" onClick={this.rerollHandler}>REROLL!</a>
-        <select name="paragraph-count" value={this.state.paragraphCount} onChange={this.changeParagraphCount}>
-          <option value="1">1 paragraph</option>
-          <option value="2">2 paragraphs</option>
-          <option value="3">3 paragraphs</option>
-        </select>
+        <div>
+          <select name="paragraph-count" value={this.state.paragraphCount} onChange={this.changeParagraphCount}>
+            <option value="1">1 paragraph</option>
+            <option value="2">2 paragraphs</option>
+            <option value="3">3 paragraphs</option>
+          </select>
+        </div>
+        
         {paragraphs}
       </div>
     )
