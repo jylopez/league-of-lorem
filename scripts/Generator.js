@@ -53,7 +53,7 @@ class Generator extends React.Component {
       <div className="generator">
         <div className="controls">
           <a className="accept" onClick={this.rerollHandler}>
-            <img src="/images/reroll.png" />
+            <img src="./images/reroll.png" />
           </a>
           <div className="paragraph-count-wrapper">
             <select name="paragraph-count" value={this.state.paragraphCount} onChange={this.changeParagraphCount}>
