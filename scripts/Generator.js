@@ -51,7 +51,9 @@ class Generator extends React.Component {
     })
     return (
       <div className="generator">
-        <a className="accept" onClick={this.rerollHandler}>REROLL!</a>
+        <a className="accept" onClick={this.rerollHandler}>
+          <img src="/images/reroll.png"/>
+        </a>
         <div>
           <select name="paragraph-count" value={this.state.paragraphCount} onChange={this.changeParagraphCount}>
             <option value="1">1 paragraph</option>
