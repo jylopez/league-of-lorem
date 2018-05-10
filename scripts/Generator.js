@@ -57,6 +57,8 @@ class Generator extends React.Component {
             <option value="1">1 paragraph</option>
             <option value="2">2 paragraphs</option>
             <option value="3">3 paragraphs</option>
+            <option value="4">4 paragraphs</option>
+            <option value="5">5 paragraphs</option>
           </select>
         </div>
         
