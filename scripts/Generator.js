@@ -7,7 +7,7 @@ class Generator extends React.Component {
     this.generateLorem = this.generateLorem.bind(this);
     this.changeParagraphCount = this.changeParagraphCount.bind(this);
     this.state = {
-      paragraphs: [LOREM.yasuoLore[0]],
+      paragraphs: [LOREM.lore[0]],
       paragraphCount: "1"
     }
   }
@@ -19,7 +19,7 @@ class Generator extends React.Component {
   }
 
   generateLorem(paragraphCount){
-    var items = LOREM.yasuoLore
+    var items = LOREM.lore
     var paragraphCount = parseInt(paragraphCount)
     var paragraphs = []
 
@@ -43,12 +43,29 @@ class Generator extends React.Component {
     })
   }
 
+  getChats(){
+    const chatIndex = Math.floor(Math.random() * LOREM.chat.length);
+    if (Array.isArray(LOREM.chat[chatIndex])) {
+      var chatArray = []
+      for (var i = 0; i < LOREM.chat[chatIndex].length; i++) {
+        chatArray.push(<p>{LOREM.chat[chatIndex][i]}</p>)
+      }
+      return chatArray;
+    } else {
+      return <p>{LOREM.chat[chatIndex]}</p>
+    }
+  }
+
   render(){
     const paragraphs = this.state.paragraphs.map((paragraph, index) => {
       return (
         <p key={index}>{paragraph}</p>
       )
     })
+
+    
+
+    const chats = this.getChats()
     return (
       <div className="generator">
         <div className="controls">
@@ -68,6 +85,9 @@ class Generator extends React.Component {
         
         
         {paragraphs}
+
+        <h2>/all</h2>
+        {chats}
       </div>
     )
   }

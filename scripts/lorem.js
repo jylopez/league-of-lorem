@@ -135,7 +135,7 @@ const LOREM = {
     'Shaco',
     'Urgot'
   ],
-  yasuoLore: [
+  lore: [
     'As a child, Yasuo often believed what the others in his village said of him: on the best days, his very existence was an error in judgement; on the worst, he was a mistake that could never be undone.',
     'Like most pain, there was some truth to it.His mother was a widow already raising a young son, when the man who would be Yasuo’s father blew into her life like an autumn wind.And, just like that lonely season, he was gone again before the blanket of Ionian winter settled over the small family.',
     'Even though Yasuo’s older half - brother, Yone, was everything Yasuo was not—respectful, cautious, conscientious—the two were inseparable.When other children teased Yasuo, Yone was there to defend him.But what Yasuo lacked in patience, he made up for in determination.When Yone began his apprenticeship at the village’s renowned sword school, a young Yasuo followed, waiting outside in monsoon rain, until the teachers relented and opened the gates.',
@@ -162,6 +162,100 @@ const LOREM = {
     "For Riven, memories of the hours that followed come only in fragments, and nightmares. She bound her wounds. She mourned the dead. But, most of all, she came to hate the sword that saved her life. The words carved into its surface mocked her, reminding her of all she had lost. She would find a way to break it, severing her last tie to Noxus, before the dawn. But when the blade was finally shattered, still she found no peace.",
     "Stripped of the faith and conviction that had bolstered her entire life, Riven chose to exile herself, wandering Ionia’s battle-scarred landscape. When she finally returned to the village where she had broken the sword, it was revealed that her self-destructive needs had cost the life of their most revered elder… but where Noxus would certainly have condemned Riven to death for such a crime, Ionia embraced her with forgiveness.",
     "Though the empire has long since withdrawn from the shores of the First Lands, Riven remains haunted. The balance of power has shifted across Valoran, and she can no longer be sure what she will become, when she is made whole once more."
+  ],
+  chat: [
+    [`AP yi: "GG jungler doesnt give me blue"`, `Jungle nasus: "N^gga i aint giving u blue, you are starting your own african relief camp mid cuz all you do is feed, feed, feed"`],
+    "I hate you more than 20 hitlers",
+    "I hope you step on a lego block fgt!",
+    "Wards are for p*ssies.",
+    [`Ezreal: "Sona where are the wards???"`, `Sona: "In the shop"`],
+    [
+      `CDZoro: Care, enemy Draven is Plat 4`,
+      `CDZoro: this will be interesting`,
+      `(all) Enemy Draven: ^`,
+      `Lissandra: How the hell he knew you said that`,
+      `Lissandra: WAT`,
+      `CDZoro: what the **** lmao`,
+      `(all) Udyr: Draven hacker`
+    ],
+    "Can we switch lanes? I can't handle Elise...I'm arachnophobia.",
+    [`top lane "can I get a gank please?"`, `jungler "okay but you have to suck my italian handcrafted ****"`],
+    [
+      `*in champ select *`,
+      `person 1: Alright go Draven so you can own bot`,
+      `adc: No`,
+      `person 1: why not ? hes op`,
+      `adc: too mainstream`,
+      `(then he proceeds to pick urgot)`
+    ],
+    "getting CS is useless past laning phase ",
+    `Every mistake you guys make i will do exactly the same`,
+    `Dude, you must've been born on a highway because that's where most accidents happen.`,
+    `"You carrot"`,
+    `"You fathead!"`,
+    `"your family tree is a cactus, everybody on it is a ʞɔıɹd"`,
+    [
+      "How fast do you tan?",
+      "huh ? what ? why ?",
+      "Because you seem bronze."
+    ],
+    "Yi, You've fed so many people so hard that you could pass for a homeless shelter",
+    "report him pelas",
+    "omg you're the biggest bob i've ever seen",
+    "l2p and uninstall",
+    `"I don't splash out 2k RP for a skin then suck with the champ."`,
+    `"Camp my lane more, want me to buy you a tent?"`,
+    `(jungler): I don't need smite`,
+    [
+      `Sejuani - Smiteless blue, please`,
+      `Ezreal - I'll give you a smiteless jew`
+    ],
+    `"I'm Gonna do to you what China did to Pearl Harbor"`,
+    [`Rengar: I used to think the heaviest thing in the known universe were black holes`,
+    `Rengar: But I've since come to learn that actually it is my team`],
+    [
+      `Top: "/all THIS TEAM IS SO BAD"`,
+      `Top: "/all YOU'RE ONLY WINNING CUZ YOU GET GANKS"`,
+      `Jungler: "/all What's that? I can't hear you from the bottom of the scoreboard."`
+    ],
+    `"If you don't smite then don't be mad if I accidentally take your buff."`,
+    `"GP jungle needs to start cloth armor instead of machete because the camps damage him too much early."`,
+    `"Lol your team sucks. You haven't killed me yet!" `,
+    `Nasus: "repot jana and ashe international feeder"`,
+    [
+      `"Stop chatting, I need to focus."`,
+      `"Dude.. this is a bot battle." `,
+      `"I know. I play to win."`
+    ],
+    `"your mom has bad cabbage"`,
+    [
+      `Karthus: this grave so stupid`,
+      `Karthus: hey grave u r retired`,
+      `Graves: wtf I'm not even old, you're the 30 yr old playing video games`,
+      `Karthus: shut up retire`
+    ],
+    [
+      "ok team",
+      "group mid and end",
+      "im massive"
+    ]
+    [
+      `Leesin: Why are you buying 5 wards Cait ?`,
+      `Caitlyn : Because the support refuse to buy wards and we got camped gank for the 3rd time.`,
+      `Taric: But I am lagging.`
+    ],
+    [
+      `Blitz: Graves **** you i wanted to adc`,
+      `Graves: Cry me a river`,
+      `Graves: and put a ward in it`
+    ],
+    [
+      `Ezreal: why is Teemo going top ?`,
+      `Mordekaiser : Maybe he is a super pro Teemo and is gonna carry us!`,
+      `Sona: I believe in you Teemo!`,
+      `Teemo: Alguien abla espanol ?`,
+      `Mordekaiser : NOOOOOOOOOO`
+    ]
   ]
 }
 
