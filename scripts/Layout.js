@@ -4,6 +4,7 @@ class Layout extends React.Component {
     this.rerollHandler = this.rerollHandler.bind(this);
     this.generateLorem = this.generateLorem.bind(this);
     this.changeParagraphCount = this.changeParagraphCount.bind(this);
+    this.selectView = this.selectView.bind(this);
     this.state = {
       paragraphs: [LOREM.lore[Math.floor(Math.random() * LOREM.lore.length)]],
       paragraphCount: "1",
@@ -57,8 +58,9 @@ class Layout extends React.Component {
               <img src="./images/logo.png" />
             </div>
             <div className="controls">
-              <div className="control-item" onClick={this.selectView.bind(this, 'paragraphs')}>LEAGUE LOREM</div>
-              <div className="control-item" onClick={this.selectView.bind(this, 'allChat')}>/all CHAT</div>
+              <ControlItem onClick={this.selectView} viewName="paragraphs" name="LEAGUE LOREM" selectedView={this.state.selectedView}/>
+              <ControlItem onClick={this.selectView} viewName="allChat" name="/all CHAT" selectedView={this.state.selectedView}/>
+              
               { this.state.selectedView === 'paragraphs' &&
                 <ParagraphCountSelect value={this.state.paragraphCount} onChange={this.changeParagraphCount} />
               }
@@ -70,7 +72,7 @@ class Layout extends React.Component {
               
             </div>
           </div>
-          <div className="col-sm-9">
+          <div className="col-sm-9 right-column">
             { this.state.selectedView === 'paragraphs' &&
               <Paragraphs
                 paragraphs={this.state.paragraphs}

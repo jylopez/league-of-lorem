@@ -1,10 +1,23 @@
 body, h1, h2, h3, h4, h5, h6, p, div {
     font-family: 'Vollkorn', sans-serif;
     font-weight: 300;
+    color: #A18341;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('/images/background.png')
 }
 
 .root-page {
     padding: 8% 4%;
+}
+
+.right-column {
+    padding-top: 97px;
 }
 
 .reroll{
@@ -17,7 +30,7 @@ body, h1, h2, h3, h4, h5, h6, p, div {
 }
 
 .logo-wrapper img {
-    width: 200px;
+    width: 230px;
 }
 
 .controls {
@@ -32,4 +45,10 @@ body, h1, h2, h3, h4, h5, h6, p, div {
 .control-item {
     cursor: pointer;
     text-align: left;
+    margin-bottom: 20px;
+}
+
+.control-item img {
+    width: 20px;
+    margin-right: 15px;
 }
