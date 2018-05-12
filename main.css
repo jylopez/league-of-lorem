@@ -1,14 +1,13 @@
 body, h1, h2, h3, h4, h5, h6, p, div {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Vollkorn', sans-serif;
     font-weight: 300;
 }
 
 .root-page {
-    max-width: 800px;
-    margin: 100px auto;
+    padding: 8% 4%;
 }
 
-.accept{
+.reroll{
     cursor: pointer;
 }
 
@@ -18,13 +17,19 @@ body, h1, h2, h3, h4, h5, h6, p, div {
 }
 
 .logo-wrapper img {
-    width: 300px;
+    width: 200px;
 }
 
 .controls {
     text-align: center;
+    padding: 0 15px;
 }
 
-.paragraph-count-wrapper {
-    margin: 20px 0;
+.paragraph-count-wrapper, .reroll-wrapper {
+    margin-top: 20px;
+}
+
+.control-item {
+    cursor: pointer;
+    text-align: left;
 }

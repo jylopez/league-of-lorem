@@ -179,7 +179,6 @@ const LOREM = {
       `(all) Udyr: Draven hacker`
     ],
     "Can we switch lanes? I can't handle Elise...I'm arachnophobia.",
-    [`top lane "can I get a gank please?"`, `jungler "okay but you have to suck my italian handcrafted ****"`],
     [
       `*in champ select *`,
       `person 1: Alright go Draven so you can own bot`,
@@ -238,7 +237,7 @@ const LOREM = {
       "ok team",
       "group mid and end",
       "im massive"
-    ]
+    ],
     [
       `Leesin: Why are you buying 5 wards Cait ?`,
       `Caitlyn : Because the support refuse to buy wards and we got camped gank for the 3rd time.`,
