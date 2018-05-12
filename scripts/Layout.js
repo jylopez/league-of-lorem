@@ -59,8 +59,12 @@ class Layout extends React.Component {
             </div>
             <div className="controls">
               <ControlItem onClick={this.selectView} viewName="paragraphs" name="LEAGUE LOREM" selectedView={this.state.selectedView}/>
+              <ControlItem onClick={this.selectView} viewName="imageGenerator" name="IMAGE GENERATOR" selectedView={this.state.selectedView} />
+              <ControlItem onClick={this.selectView} viewName="profilePictures" name="PROFILE PICTURES" selectedView={this.state.selectedView} />
               <ControlItem onClick={this.selectView} viewName="allChat" name="/all CHAT" selectedView={this.state.selectedView}/>
-              
+              <div className="horizontal-bar"></div>
+
+
               { this.state.selectedView === 'paragraphs' &&
                 <ParagraphCountSelect value={this.state.paragraphCount} onChange={this.changeParagraphCount} />
               }
@@ -77,6 +81,14 @@ class Layout extends React.Component {
               <Paragraphs
                 paragraphs={this.state.paragraphs}
               />
+            }
+
+            {this.state.selectedView === 'imageGenerator' &&
+              <div>Coming soon...</div>
+            }
+
+            {this.state.selectedView === 'profilePictures' &&
+              <div>Coming soon...</div>
             }
             
             { this.state.selectedView === 'allChat' &&
